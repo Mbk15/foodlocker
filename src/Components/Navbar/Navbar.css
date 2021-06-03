@@ -1,0 +1,33 @@
+.navbar-container{
+    width: 90%;
+    padding: 10px;
+    /* background-color: red; */
+    box-shadow: 2px 2px 2px #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: 0px auto;
+    /* position: relative; */
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right{
+
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    max-width: 100px;
+    width: 50%;
+    margin: 10px;
+}
+
+#shopping-cart{
+    margin-left: 20px;
+}

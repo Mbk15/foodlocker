@@ -1,0 +1,12 @@
+
+.cta-carousel-item{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.cta-carousel-item img{
+    width: 100%;
+}

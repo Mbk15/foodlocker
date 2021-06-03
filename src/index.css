@@ -1,0 +1,38 @@
+:root {
+  --theme-green: rgb(42, 182, 30);
+  --theme-deep-green: rgb(22, 146, 11);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.horizontal-cards-container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.horizontal-cards-container .product-card-container {
+  margin-right: 20px;
+}

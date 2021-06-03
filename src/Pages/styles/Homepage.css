@@ -1,0 +1,37 @@
+/* .homepage-container{
+    border: 2px solid red;
+} */
+
+.Product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+.Product-cards > *{
+    flex: 1 1 30%;
+    margin:20px 10px;
+}
+
+.homepage-section-container{
+    margin-top: 50px;
+}
+
+.section-image-container{
+    width: 100%;
+}
+.section-image-container img{
+    width: 100%;
+}
+.section-service-container{
+    
+}
+.section-service-container h3{
+    text-align: center;
+    color: var(--theme-deep-green);
+}
+.section-service-container p{
+    line-height: 30px;
+    text-align: justify;
+}
